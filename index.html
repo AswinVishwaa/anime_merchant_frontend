@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>Berserk</title>
+</head>
+<body>
+    <!-- nav-->
+        <nav class="navbar navbar-expand-md align-content-center bg-dark text-white navbar-dark">
+        <div class="container-xl">
+          <span class="nav-brand fw-bold"><img src="img/logo2.jpg" alt="logo" height="50px" width="50px"> &ensp; BERSERK</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#test" aria-controls="test" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="test">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                        <button class="btn btn-outline-danger fw-bold btn-sm dropdown-toggle my-1 mx-md-3" data-bs-target="#drop" data-bs-toggle="dropdown">More</button>
+                        <ul class="dropdown-menu" id="drop">
+                            <li><a href="#off" data-bs-toggle="offcanvas" class="dropdown-item link-danger">Manga</a></li>
+                            <li><a href="#review" class="dropdown-item link-danger">Reviews</a></li>
+                            <li><a href="#qa" class="dropdown-item link-danger">Queries</a></li>
+                            <li><a href="#merch" class="dropdown-item link-danger">Merchandies</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-none d-md-block ms-3"><a type="button" href="#pricing" class="btn btn-danger">Buy now</a></li>
+
+                </ul>
+                </div>
+                </div>
+    </nav>
+    <!--left content right image-->
+        <section id="home">
+            <div class="container-xl mt-5">
+                <div class="row">
+                    <div class="col-md-5 text-center me-5 text-md-start">
+                        <h2>
+                            <div class="display-2"><img src="img/logo1.jpg" alt="logo" height="80px" width="80px">Berserk</div>
+                            <div class="display-5 text-danger" style="text-decoration: overline;">Golden Age Arc</div>
+                        </h2>
+                        <p class="lead my-2 text-muted ">The Kingdom of Midland and the Tudor Empire have waged war against each other for approximately 100 years.
+
+The fighting abilities of lone swordsman Guts pique the interest of mercenary leader Griffith, following the former's defeat of Bazuso during the siege of a Falcon-held fortress. The two later engage in a decisive duel, in which Griffith successfully recruits Guts into his Band of the Falcon by defeating the swordsman.....</p>
+                            <!--offcanvas-->
+                            <button class="btn btn-danger text-white align-items-center-md" data-bs-target="#off" data-bs-toggle="offcanvas">Read More</button>
+                    </div>
+                    <div class="col-md-5 ms-5 d-none d-md-block">
+                        <img class="img-fluid" src="img/op1.jpg" alt="cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="offcanvas offcanvas-start" id="off" tabindex="-1">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title"><img src="img/logoeg.png" alt="logo" height="50px" width="50px">&ensp; Manga</h3>
+                <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p class="lead">In world torn apart by a century-old war, Guts, a lone mercenary, is hired by a company to fight for the dream its leader is determined to realise.</p>
+                <div class="dropdown mt-3">
+                     <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">chapters</button>
+                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item link" href="#">Chapter : 1</a></li>
+                            <li><a class="dropdown-item link" href="#">Chapter : 2</a></li>
+                            <li><a class="dropdown-item link" href="#">Chapter : 3</a></li>
+                            <li><a class="dropdown-item link" href="#">More</a></li>
+                        </ul>
+                </div>
+                <img src="img/cover2.png" class="img-fluid mt-3" alt="cover">
+                <p class="lead mt-3">If you're not yet read the Prolongue,you should read that first,since thats the prequel of the story</p>
+                <div class="dropdown mt-3">
+                     <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Prolongues</button>
+                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item link" href="#">Prolongue : 1</a></li>
+                            <li><a class="dropdown-item link" href="#">Prolongue : 2</a></li>
+                            <li><a class="dropdown-item link" href="#">Prolongue : 3</a></li>
+                            <li><a class="dropdown-item link" href="#">More</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    <!--cards-->
+        <section id="pricing" class="bg-light">
+            <div class="container-xl mt-5 p-3">
+                <div class="text-center justify-content-center">
+                <h2 class="fw-bold">
+                     Pricing<i class="bi bi-tags-fill"></i>
+                </h2>
+                <p style="font-size: 20px;" class="text-danger fw-bold">choose a masterpiece</p>
+                </div>
+
+                <div class="row mx-3 justify-content-center text-center">
+                    <div class="card col-8 col-lg-4 col-xl-3 p-2 border-0 my-md-4">
+                        <div class="card-body">
+                            <h4 class="card-title">Golden Age Arc I</h4>
+                            <p class="card-subtitle">EP:1-4</p>
+                            <p class="lead card-text">In world torn apart by a century-old war, <strong>Guts</strong>, a lone mercenary, is hired by a company to fight for the dream its leader is determined to realise.</p>
+                            <p class="text-center display-5">$10</p>
+                            <button class="btn btn-danger">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="card col-9 col-lg-4 p-2 border-2">
+                        <div class="card-header">Featured</div>
+                        <div class="card-body py-4">
+                            <h4 class="card-title">Golden Age Arc III</h4>
+                            <p class="card-subtitle">EP:9-13</p>
+                            <p class="lead card-text">The tale of a bloody battle to capture the impenetrable Fortress of <strong>Doldrey</strong> from the Empire of Chuder.</p>
+                            <p class="text-center display-5">$12.99</p>
+                            <button class="btn btn-danger">Watch Now</button>
+                            
+                        </div>
+                    </div>
+                    <div class="card col-8 col-lg-4 col-xl-3 p-2 my-md-4">
+                        <div class="card-body">
+                            <h4 class="card-title">Golden Age Arc II</h4>
+                            <p class="card-subtitle">EP:5-8</p>
+                            <p class="lead card-text">A year after his departure, <strong>Guts</strong> rejoins the Band of Hawk, who are now on the run, to help them find and rescue <strong>Griffith</strong>.</p>
+                            <p class="text-center display-5">$10.99</p>
+                            <button class="btn btn-danger">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    <!--accordian-->
+    <section id="about" class="bg-light">
+        <div class="container-xl my-5">
+        <div class="class text-center">
+            <h2 class="display-5"><i class="bi bi-film"></i>About the Movies</h2>
+            <p style="font-size: 20px;" class="text-danger">The brief content about the movies are given below</p>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-md-5 align-items-center">
+                <img src="img/about.jpg" alt="cover" class="img-fluid">
+            </div>
+            <div class="col-md-5 ">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Berserk : Golden Age Arc I
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                           In the Kingdom of Midland, a mercenary named Guts wanders the land, preferring a life of conflict over a life of peace. Despite the odds never being in his favor, he is an unstoppable force that overcomes every opponent, wielding a massive sword larger than himself. One day, Griffith, the mysterious leader of the mercenary group Band of the Hawk, witnesses the warrior's battle prowess and invites the wandering swordsman to join his squadron. Rejecting the offer, Guts challenges Griffith to a duel—and, much to the former's surprise, is subsequently defeated and forced to join. Now, Guts must fight alongside Griffith and his crew to help Midland defeat the Empire of Chuder. However, Griffith seems to harbor ulterior motives, desiring something much larger than just settling the war...
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Berserk : Golden Age Arc II
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The Band of the Hawk and their enigmatic leader Griffith continue winning battle after battle as their prestige throughout the kingdom of Midland grows. But their latest task is one that has seen failure from everyone who has attempted it: the subjugation of the impenetrable fortress of Doldrey. But with members like Guts—the captain of the Hawks' raiders who can easily fell 100 men with his gigantic sword—such tasks prove to be trivial. However, in the aftermath of the battle, Guts decides to leave the Hawks in order to pursue his own dream and bids farewell to his companions, despite Griffith's attempts to make him stay. This single event causes Griffith to lose his composure, and leads him to make a decision that will alter his and the Hawks' fates forever. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Berserk : Golden Age Arc III
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The Band of the Hawk has dwindled in the year since Guts left them on his journey to forge his own destiny. Unaware of their fate, Guts returns to the Hawks—now being led by his former ally Casca—after a rumor about them passes his way. Once the saviors of the kingdom of Midland, the Band of the Hawk are now hunted as they desperately fight for their lives while plotting to free their leader, Griffith, after he was imprisoned for committing treason. But the man they save is far from the Griffith they remember. Griffith is a shell of his former charismatic self after a year of continuous, horrific torture. No longer able to walk, speak, or even hold a sword, he has nothing but the small, strange trinket, the Crimson Behelit, that will not leave him. The entire Band of the Hawk want to rise to greatness once more, but how much are they willing to sacrifice to return to their past glory? It doesn't seem possible, but when Griffith's heart darkens and a solar eclipse blackens the sky, the Behelit offers a choice that will leave the Band of the Hawk with a blood-soaked fate that will haunt them for the rest of their days. 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--reviews-->
+    <section id="review">
+        <div class="container-xl text-center mt-5 p-3">
+            <h3 class="display-5"><i class="bi bi-stars"></i>Reviews</h3>
+            <p class="text-danger fw-bold" style="font-size: 20px;">These are all the reviews form the movie watchers and should follow community guidlines while posting a comment.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-9 list-group list-group-flush">
+                    <div class="list-group-item p-4">
+                        <h5>This is great to watch</h5>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        <p>I wish this team would continue this all the way to the last Arc. This production team did this much better than the ones that did the new series. They kept it real, raw, and dark like the cold world world we live in. There’s nothing left like Berserk. Miura’s work is a flawless gem.</p>
+                        <small>- reviewed by Eric Revels</small>
+                    </div>
+                    <div class="list-group-item p-4">
+                        <h5>Not for kids</h5>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                        <p>As far as anime goes, this is waaaayyyy outside my comfort range. I definitely lean more towards sci-fi and modern era anime. However, I found the story for this(as my introduction into the world of berserk) trilogy enthralling and very engaging. High recommendation!!!!</p>
+                        <small>- reviewed by Joe Williamser</small>
+                    </div>
+                    <div class="list-group-item p-4">
+                        <h5>Fine adaptation from manga</h5>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        <p>I totally love this series. I HAVE read the manga and this movie series is just what I wanted out of an adaptation. Ignore the mindless haters and just give this series a shot.(including the 2016 follow-up). As for the manga, well it's already one of my favorites.😌</p>
+                        <small>- reviewed by Aryan Samudre</small>
+                    </div>
+                    <div class="list-group-item p-4">
+                        <h5>Goated one</h5>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                        <p>The Berserk series is one of my favorites. I recommend it to anyone who likes dark and gory anime.</p>
+                        <small>- reviewed by Austin Boles</small>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- questions-->
+    <section id="qa" class="bg-light">
+        <div class="container-xl my-5 p-3 text-center">
+            <h3 class="display-5">Questions in your mind<i class="bi bi-question-circle ms-2"></i></h3>
+            <p class="lead text-danger fw-bold">Tell me directly about what you need to ask.!</p>
+        </div>
+        <div class=" row container-xl justify-content-center">
+            <div class="col-md-9">
+            <form>
+                <label for="name" class="form-label">Name</label>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                <input type="text" id="name" class="form-control" placeholder="eg. Goku">
+                </div>
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-envelope-at"></i></span>
+                <input type="email" id="email" class="form-control" placeholder="eg. goku@hotmail.com">
+                </div>
+                <label for="queri" class="form-label">Queries</label>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="bi bi-question"></i></span>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>About the movie</option>
+                    <option value="1">About the story</option>
+                    <option value="2">About the casts</option>
+                    <option value="3">About the animation</option>
+                    <option value="4">Others..</option>
+                  </select>
+                </div>
+                <label for="textarea" class="form-label">other</label>
+                <div class="input-group mb-3">
+                    <textarea  id="#" cols="140" rows="5"></textarea>
+                </div>
+                <div class="text-end">
+                <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+    <!-- grid -->
+    <footer id="merch">
+        <div class="container-xl my-5 p-3 text-center">
+            <h3 class="display-5">
+               <i class="bi bi-shop"></i> The Merchandies
+            </h3>
+            <p class="text-danger fw-bold" style="font-size: 20px;">You can also check our products...</p>
+        </div>
+        <div class="bg-danger">
+        <div class="container-xl my-5 p3">
+            <div class="row text-start mx-5">
+                <div class="col-lg-4 p-4 pb-5 fw-bold text-white">
+                 <p class="display-5"> OUR COMPANY</p>
+                   <a href="#" class="link-light" style="text-decoration: none;"> About us</a><br>
+                   <a href="#" class="link-light" style="text-decoration: none;"> Terms & Conditions</a><br>
+                   <a href="#" class="link-light" style="text-decoration: none;"> Privacy Policies</a><br>
+                   <a href="#" class="link-light" style="text-decoration: none;"> DMCA - Copyright Policy</a><br>
+                   <a href="#" class="link-light" style="text-decoration: none;"> CA SB657: Supply Chain Transparency Act</a>
+                </div>
+                <div class="col-lg-4 p-4 pb-5 fw-bold text-white">
+                   <div class="mb-lg-4">                   
+                     <p class="display-5">SUPPORT</p>
+                     </div>
+                   <div class="pt-lg-4 ">
+                    <a href="" class="link-light" style="text-decoration: none;"> Shipping & Delivery Policies</a><br>
+                    <a href="" class="link-light" style="text-decoration: none;"> Payment Terms</a><br>
+                    <a href="" class="link-light" style="text-decoration: none;"> Return & Refund Policies</a><br>
+                    <a href="" class="link-light" style="text-decoration: none;"> Contact Us</a><br>
+                    <a href="" class="link-light" style="text-decoration: none;"> Customer Help (FAQ)</a><br>
+                    <a href="" class="link-light" style="text-decoration: none;"> Whole Sale</a><br>
+                    </div>
+                </div>
+                <div class="col-lg-4 p-4 pb-5 fw-bold text-white">
+                   <h3 class="display-5">BERSERK SHOP</h3>
+                    <p>All of our products have been designed by world-class designers. Our team offers a diverse range of high quality, beautiful design products. You can wear these to show off your personal everyday style.</p>
+                </div>
+            </div>
+            <div class="row mx-5 pb-4 text-white">
+                <div class="col">
+                    <small class="fw-bold"style="font-size: 20px;"><i class="bi bi-c-circle"></i> Berserk Merchandies</small><br>
+                    <small class="text-dark fw-bold" style="font-size: 17px;">Official Berserk Merch</small>
+                </div>
+                <!--modal trigger-->
+                <div class="col text-end pe-5">
+                    <small class="fw-bold"style="font-size: 20px;">For faster updates ...</small><br>
+                    <button class=" btn btn-outline-dark text-white mt-3" style="border: solid 2px black; border-radius: 10px 0 10px 0;" data-bs-target="#modal" data-bs-toggle="modal"><i>Click Here</i></button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--  modal  -->
+        <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-titelfw-bold">Berserk Community</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                    <div class="modal-body">By clicking the join button you're entering the world of <b>HELL</b>.(Berserk Community)</div>
+                    <div class="modal-footer">
+                         <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Later</button>
+                         <button type="button" class="btn btn-danger text-white"><i>Join</i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
