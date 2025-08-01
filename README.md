@@ -9,5 +9,5 @@ Technologies Used:
   Bootstrap
 
 Check out my project to see how I've utilized Bootstrap to create a responsive and visually appealing user interface.
-you can check my project preview in the following link https://aswinvishwaa.github.io/project-1/
+you can check my project preview in the following link [https://aswinvishwaa.github.io/project-1/](https://aswinvishwaa.github.io/anime_merchant_frontend/)
 
